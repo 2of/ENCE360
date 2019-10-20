@@ -12,3 +12,4 @@ There is a slight bug with downloading from hqwalls.com. It is reproducable on s
   
   
                                                               
+The python script runtime_csv_gen.py is a really simple utility to write the time taken for each call to a specified CSV. You must simply duplicate the body of the code for each trial and write into the fields for each trial. Trial num, threads, and files are all specifiable.
