@@ -1,17 +1,21 @@
-# ENCE360 Multipart HTTP 1.0 Downloader
+# ENCE360 2019 HTTP 1.0 Downloader
 
 
-This was for ENCE360 2019. Invoke with ./downloader url text file num threads directory
+For ENCE360 2019 at the University of Canterbury New Zealand. A simple multipart HTTP 1.0 Downloader; Performs HTTP get requests for snippets of each file specified in `text_file` and merges each into combined files at `directory` using a number of threads specified by `threads_num`
+
+***Usage:***
+
+`./downloader <text_file> <threads_num> <directory>`
 
 
-Final grade: A
-(87.5% UC grade) 
-I'll add some feedback when it is available
 
+Final grade: **A: 87.5%**
+Feedback is not available on this assignment at the current time.
 
+***Notes About Submission***
 There is a slight bug with downloading from hqwalls.com. It is reproducable on some machines but not all, this contributes to the overall grade. 
+Also there are some formatting issues and a little unused code that contributes to the grade
 
-Also there are some formatting issues and a little unused code that contributes to code
-  
-                                                              
-The python script runtime_csv_gen.py is a really simple utility to write the time taken for each call to a specified CSV. You must simply duplicate the body of the code for each trial and write into the fields for each trial. Trial num, threads, and files are all specifiable. It's very rudimentary, but it works!
+
+***Side Note: ***
+The python script runtime_csv_gen.py is a simple extra utility to write the time taken for each call to a specified CSV. You must simply duplicate the body of the code for each trial and write into the fields for each trial. Trial num, threads, and files are all specifiable. It is very rudimentary.
